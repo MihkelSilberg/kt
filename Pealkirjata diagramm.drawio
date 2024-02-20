@@ -1,0 +1,133 @@
+<mxfile host="Electron" modified="2024-02-20T13:01:15.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="Pai3rtqUNqh3K12cVTyk" version="21.2.1" type="device">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="1195" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-1" target="GY5TDRQX_bBfUxiUwfOL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-2" target="GY5TDRQX_bBfUxiUwfOL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-2" value="&lt;div&gt;Console.WriteLine(&quot;Millist kujundit soovid? (Ruut, Ring, Ristkylik, Kolmnurk)&quot;);&lt;/div&gt;&lt;div&gt;string valikud = Console.ReadLine().ToLower();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="130" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-3" target="GY5TDRQX_bBfUxiUwfOL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-3" value="switch (valikud)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-4" target="GY5TDRQX_bBfUxiUwfOL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-4" value="RuuduProgramm();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-5" target="GY5TDRQX_bBfUxiUwfOL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-5" value="&lt;div&gt;Console.WriteLine(&quot;Sisesta ruudu külje pikkus:&quot;);&lt;/div&gt;&lt;div&gt;int kylg = Convert.ToInt32(Console.ReadLine());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-7" target="GY5TDRQX_bBfUxiUwfOL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-7" value="Console.WriteLine(&quot;Ruut:&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-8" target="GY5TDRQX_bBfUxiUwfOL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-8" target="GY5TDRQX_bBfUxiUwfOL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-8" value="for (int i = 0; i &amp;lt; kylg; i++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-9" target="GY5TDRQX_bBfUxiUwfOL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-9" value="for (int j = 0; j &amp;lt;= 2 * raadius; j++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-10" value="Console.Write(&quot;*&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-11" value="Console.WriteLine();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-12" target="GY5TDRQX_bBfUxiUwfOL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-12" value="int umbermoot = 4 * kylg;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-13" target="GY5TDRQX_bBfUxiUwfOL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-13" value="int pindala = kylg * kylg;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-14" value="Console.WriteLine($&quot;Ruudu ümbermõõt on {umbermoot} ja pindala on {pindala} ühikut.&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="GY5TDRQX_bBfUxiUwfOL-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="990" as="sourcePoint" />
+            <mxPoint x="800" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GY5TDRQX_bBfUxiUwfOL-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="720" as="sourcePoint" />
+            <mxPoint x="960" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="GY5TDRQX_bBfUxiUwfOL-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="850" as="sourcePoint" />
+            <mxPoint x="900" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GY5TDRQX_bBfUxiUwfOL-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="620" as="sourcePoint" />
+            <mxPoint x="190" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="GY5TDRQX_bBfUxiUwfOL-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="470" as="sourcePoint" />
+            <mxPoint x="680" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GY5TDRQX_bBfUxiUwfOL-31" target="GY5TDRQX_bBfUxiUwfOL-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-31" value="break:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GY5TDRQX_bBfUxiUwfOL-32" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
